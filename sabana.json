@@ -1,127 +1,116 @@
 [
   {
-    "title": "La Traviata",
-    "composer": { "name": "Giuseppe Verdi", "period": "Romantic" },
-    "librettist": "Francesco Maria Piave",
-    "premiere": {
-      "city": "Venice, Italy",
-      "venue": "Teatro La Fenice",
-      "date": "1853-03-06"
+    "common_name": "African savanna elephant",
+    "scientific_name": "Loxodonta africana",
+    "conservation_status": "Vulnerable",
+    "average_mass_kg": 6000,
+    "max_speed_kmh": 40,
+    "social_structure": "Matriarch-led family groups",
+    "habitat": {
+      "biome": "Savanna and woodland",
+      "range_countries": ["Botswana", "Tanzania", "Kenya", "Zimbabwe", "Namibia"],
+      "protected_areas": ["Chobe National Park", "Serengeti National Park", "Kruger National Park"]
     },
-    "language": "Italian",
-    "duration_min": 140,
-    "act_count": 3,
-    "notable_arias": ["Libiamo ne' lieti calici", "Sempre libera"],
-    "lead_roles": [
-      { "character": "Violetta Valery", "voice_type": "soprano" },
-      { "character": "Alfredo Germont", "voice_type": "tenor" },
-      { "character": "Giorgio Germont", "voice_type": "baritone" }
-    ],
-    "themes": ["love", "sacrifice", "social pressure"]
+    "diet": {
+      "type": "herbivore",
+      "primary_foods": ["grasses", "bark", "roots", "fruits"]
+    },
+    "population_estimate": { "value": "~415,000", "trend": "Decreasing" },
+    "threats": ["poaching for ivory", "habitat loss", "human-wildlife conflict"]
   },
   {
-    "title": "Aida",
-    "composer": { "name": "Giuseppe Verdi", "period": "Romantic" },
-    "librettist": "Antonio Ghislanzoni",
-    "premiere": {
-      "city": "Cairo, Egypt",
-      "venue": "Khedivial Opera House",
-      "date": "1871-12-24"
+    "common_name": "Lion",
+    "scientific_name": "Panthera leo",
+    "conservation_status": "Vulnerable",
+    "average_mass_kg": 190,
+    "max_speed_kmh": 80,
+    "social_structure": "Prides with related females and a coalition of males",
+    "habitat": {
+      "biome": "Savanna and open woodland",
+      "range_countries": ["Tanzania", "Kenya", "South Africa", "Botswana", "Zambia"],
+      "protected_areas": ["Serengeti National Park", "Masai Mara", "Kruger National Park"]
     },
-    "language": "Italian",
-    "duration_min": 150,
-    "act_count": 4,
-    "notable_arias": ["Celeste Aida", "O patria mia"],
-    "lead_roles": [
-      { "character": "Aida", "voice_type": "soprano" },
-      { "character": "Radames", "voice_type": "tenor" },
-      { "character": "Amneris", "voice_type": "mezzo-soprano" },
-      { "character": "Amonasro", "voice_type": "baritone" }
-    ],
-    "themes": ["loyalty", "war", "identity"]
+    "diet": {
+      "type": "carnivore",
+      "primary_foods": ["zebra", "wildebeest", "buffalo", "antelope"]
+    },
+    "population_estimate": { "value": "~23,000", "trend": "Decreasing" },
+    "threats": ["habitat fragmentation", "retaliatory killings", "depletion of prey"]
   },
   {
-    "title": "La Boheme",
-    "composer": { "name": "Giacomo Puccini", "period": "Late Romantic" },
-    "librettist": "Luigi Illica and Giuseppe Giacosa",
-    "premiere": {
-      "city": "Turin, Italy",
-      "venue": "Teatro Regio",
-      "date": "1896-02-01"
+    "common_name": "Cheetah",
+    "scientific_name": "Acinonyx jubatus",
+    "conservation_status": "Vulnerable",
+    "average_mass_kg": 72,
+    "max_speed_kmh": 110,
+    "social_structure": "Solitary females, male coalitions",
+    "habitat": {
+      "biome": "Savanna and semi-arid grassland",
+      "range_countries": ["Namibia", "Botswana", "Kenya", "Tanzania"],
+      "protected_areas": ["Etosha National Park", "Kgalagadi Transfrontier Park"]
     },
-    "language": "Italian",
-    "duration_min": 135,
-    "act_count": 4,
-    "notable_arias": ["Che gelida manina", "Mi chiamano Mimi"],
-    "lead_roles": [
-      { "character": "Mimi", "voice_type": "soprano" },
-      { "character": "Rodolfo", "voice_type": "tenor" },
-      { "character": "Musetta", "voice_type": "soprano" },
-      { "character": "Marcello", "voice_type": "baritone" }
-    ],
-    "themes": ["bohemian life", "youth", "loss"]
+    "diet": {
+      "type": "carnivore",
+      "primary_foods": ["gazelle", "impala", "hares"]
+    },
+    "population_estimate": { "value": "~7,100", "trend": "Decreasing" },
+    "threats": ["habitat loss", "human-wildlife conflict", "low genetic diversity"]
   },
   {
-    "title": "Tosca",
-    "composer": { "name": "Giacomo Puccini", "period": "Late Romantic" },
-    "librettist": "Luigi Illica and Giuseppe Giacosa",
-    "premiere": {
-      "city": "Rome, Italy",
-      "venue": "Teatro Costanzi",
-      "date": "1900-01-14"
+    "common_name": "Maasai giraffe",
+    "scientific_name": "Giraffa camelopardalis tippelskirchi",
+    "conservation_status": "Endangered",
+    "average_mass_kg": 1100,
+    "max_speed_kmh": 60,
+    "social_structure": "Loose herds with fission-fusion dynamics",
+    "habitat": {
+      "biome": "Savanna and open woodland",
+      "range_countries": ["Tanzania", "Kenya"],
+      "protected_areas": ["Serengeti National Park", "Tsavo National Park"]
     },
-    "language": "Italian",
-    "duration_min": 135,
-    "act_count": 3,
-    "notable_arias": ["Vissi d'arte", "E lucevan le stelle"],
-    "lead_roles": [
-      { "character": "Floria Tosca", "voice_type": "soprano" },
-      { "character": "Mario Cavaradossi", "voice_type": "tenor" },
-      { "character": "Baron Scarpia", "voice_type": "baritone" }
-    ],
-    "themes": ["political intrigue", "faith", "betrayal"]
+    "diet": {
+      "type": "herbivore",
+      "primary_foods": ["acacia leaves", "shoots", "seed pods"]
+    },
+    "population_estimate": { "value": "~35,000", "trend": "Decreasing" },
+    "threats": ["poaching", "habitat conversion", "disease"]
   },
   {
-    "title": "Don Giovanni",
-    "composer": { "name": "Wolfgang Amadeus Mozart", "period": "Classical" },
-    "librettist": "Lorenzo Da Ponte",
-    "premiere": {
-      "city": "Prague, Czech Republic",
-      "venue": "Estates Theatre",
-      "date": "1787-10-29"
+    "common_name": "Plains zebra",
+    "scientific_name": "Equus quagga",
+    "conservation_status": "Near Threatened",
+    "average_mass_kg": 320,
+    "max_speed_kmh": 65,
+    "social_structure": "Harems led by a stallion with associated bachelor groups",
+    "habitat": {
+      "biome": "Savanna and grassland",
+      "range_countries": ["Kenya", "Tanzania", "South Africa", "Botswana", "Zimbabwe"],
+      "protected_areas": ["Masai Mara", "Kruger National Park", "Hwange National Park"]
     },
-    "language": "Italian",
-    "duration_min": 180,
-    "act_count": 2,
-    "notable_arias": ["La ci darem la mano", "Fin ch'han dal vino"],
-    "lead_roles": [
-      { "character": "Don Giovanni", "voice_type": "baritone" },
-      { "character": "Donna Anna", "voice_type": "soprano" },
-      { "character": "Leporello", "voice_type": "bass" },
-      { "character": "Il Commendatore", "voice_type": "bass" }
-    ],
-    "themes": ["morality", "retribution", "seduction"]
+    "diet": {
+      "type": "herbivore",
+      "primary_foods": ["grasses", "occasional leaves"]
+    },
+    "population_estimate": { "value": "~750,000", "trend": "Stable to decreasing" },
+    "threats": ["fencing and migration barriers", "hunting", "drought"]
   },
   {
-    "title": "Le nozze di Figaro",
-    "composer": { "name": "Wolfgang Amadeus Mozart", "period": "Classical" },
-    "librettist": "Lorenzo Da Ponte",
-    "premiere": {
-      "city": "Vienna, Austria",
-      "venue": "Burgtheater",
-      "date": "1786-05-01"
+    "common_name": "African wild dog",
+    "scientific_name": "Lycaon pictus",
+    "conservation_status": "Endangered",
+    "average_mass_kg": 25,
+    "max_speed_kmh": 66,
+    "social_structure": "Packs with cooperative breeding",
+    "habitat": {
+      "biome": "Savanna and open woodland",
+      "range_countries": ["Botswana", "Zimbabwe", "Mozambique", "Tanzania"],
+      "protected_areas": ["Okavango Delta", "Selous Game Reserve"]
     },
-    "language": "Italian",
-    "duration_min": 175,
-    "act_count": 4,
-    "notable_arias": ["Non piu andrai", "Voi che sapete"],
-    "lead_roles": [
-      { "character": "Figaro", "voice_type": "bass-baritone" },
-      { "character": "Susanna", "voice_type": "soprano" },
-      { "character": "Count Almaviva", "voice_type": "baritone" },
-      { "character": "Countess Almaviva", "voice_type": "soprano" },
-      { "character": "Cherubino", "voice_type": "mezzo-soprano" }
-    ],
-    "themes": ["class satire", "forgiveness", "love"]
+    "diet": {
+      "type": "carnivore",
+      "primary_foods": ["impala", "wildebeest calves", "small antelope"]
+    },
+    "population_estimate": { "value": "~6,600", "trend": "Decreasing" },
+    "threats": ["canine diseases", "habitat fragmentation", "persecution"]
   }
 ]

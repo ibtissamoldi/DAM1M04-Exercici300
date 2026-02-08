@@ -1,0 +1,86 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "name": { "type": "string" },
+      "type": {
+        "type": "string",
+        "enum": ["planet"]
+      },
+      "orbit": {
+        "type": "object",
+        "properties": {
+          "around": {
+            "type": "string",
+            "enum": ["Sun"]
+          },
+          "semi_major_axis_au": {
+            "type": "number",
+            "minimum": 0
+          },
+          "orbital_period_days": {
+            "type": "number",
+            "minimum": 0
+          }
+        },
+        "required": ["around", "semi_major_axis_au", "orbital_period_days"]
+      },
+      "physical": {
+        "type": "object",
+        "properties": {
+          "mean_radius_km": {
+            "type": "number",
+            "minimum": 0
+          },
+          "mass_kg": {
+            "type": "number",
+            "minimum": 0
+          },
+          "gravity_m_s2": {
+            "type": "number",
+            "minimum": 0
+          }
+        },
+        "required": ["mean_radius_km", "mass_kg", "gravity_m_s2"]
+      },
+      "atmosphere": {
+        "type": "array",
+        "items": { "type": "string" }
+      },
+      "satellites": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": { "type": "string" },
+            "type": { "type": "string" },
+            "mean_radius_km": {
+              "type": "number",
+              "minimum": 0
+            },
+            "discovery": { "type": "string" }
+          },
+          "required": ["name", "type", "mean_radius_km", "discovery"]
+        }
+      },
+      "discovery": {
+        "type": "object",
+        "properties": {
+          "discovered_by": { "type": "string" },
+          "year": { "type": "integer" }
+        },
+        "required": ["discovered_by"]
+      }
+    },
+    "required": [
+      "name",
+      "type",
+      "orbit",
+      "physical",
+      "atmosphere",
+      "satellites",
+      "discovery"
+    ]
+  }
+}
